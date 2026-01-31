@@ -1,3 +1,4 @@
+// https://www.geeksforgeeks.org/problems/max-sum-without-adjacents2430/
 #include<bits/stdc++.h>
 using namespace std;
 
