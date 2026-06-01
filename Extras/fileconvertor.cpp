@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "1752. Check if Array Is Sorted and Rotated";
+string fname = "D. Xenia and Bit Operations";
 
 int main(){
     string converted_file_name  = "";
