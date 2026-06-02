@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "Find Second Smallest and Second Largest Element in an array";
+string fname = "1752. Check if Array Is Sorted and Rotated";
 
 int main(){
     string converted_file_name  = "";
