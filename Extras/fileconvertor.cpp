@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "Find the Largest element in an array";
+string fname = "Find Second Smallest and Second Largest Element in an array";
 
 int main(){
     string converted_file_name  = "";
