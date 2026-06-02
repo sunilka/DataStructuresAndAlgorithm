@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "283. Move Zeroes";
+string fname = "Linear Search in C";
 
 int main(){
     string converted_file_name  = "";
