@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "26. Remove Duplicates from Sorted Array";
+string fname = "189. Rotate Array";
 
 int main(){
     string converted_file_name  = "";
