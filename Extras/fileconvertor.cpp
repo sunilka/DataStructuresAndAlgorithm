@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "485. Max Consecutive Ones";
+string fname = "136. Single Number";
 
 int main(){
     string converted_file_name  = "";
