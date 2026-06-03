@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "Find the Missing Number";
+string fname = "485. Max Consecutive Ones";
 
 int main(){
     string converted_file_name  = "";
