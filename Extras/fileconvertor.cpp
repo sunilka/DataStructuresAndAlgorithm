@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "Union of two sorted arrays";
+string fname = "Find the Missing Number";
 
 int main(){
     string converted_file_name  = "";
