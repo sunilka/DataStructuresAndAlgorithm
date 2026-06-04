@@ -3,12 +3,12 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "136. Single Number";
+string fname = "Largest subarray with 0 sum";
 
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
-        if(ele == '.' || ele == ' ') converted_file_name += '_';
+        if(ele == '.' || ele == ' ' || ele == '(' || ele == ')') converted_file_name += '_';
         else converted_file_name += ele;
     }
     cout<<"Converted file name is : \n";

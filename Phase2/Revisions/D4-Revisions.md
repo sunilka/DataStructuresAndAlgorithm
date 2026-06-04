@@ -2,4 +2,5 @@
 
 - 3635__Earliest_Finish_Time_for_Land_and_Water_Rides_II
 - Segement trees.
-- Segement tree questions
+- Segement tree questions.
+- Longest subarray sum which equals a target k
