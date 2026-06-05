@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "75. Sort Colors";
+string fname = "169. Majority Element";
 
 int main(){
     string converted_file_name  = "";
