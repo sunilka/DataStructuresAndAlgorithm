@@ -32,7 +32,7 @@ Follow up: Could you come up with a one-pass algorithm using only constant extra
 #include<bits/stdc++.h>
 using namespace std;
 
-void sortColors(vector<int>& nums) {
+void sortColors1(vector<int>& nums) {
     int z=0, o=0, t=0;
     for(auto ele: nums){
         if(ele == 0) z++;
@@ -45,6 +45,35 @@ void sortColors(vector<int>& nums) {
     for(int k=0; k<t; k++) nums[index++] = 2;
 }
 
+/*
+
+Complexity analysis:
+
+Time complexity: O(N), where N is the number of elements present in the array.
+Space complexity: O(1), we are using just 3 variables, so space is constant. 
+
+*/
+
+
+void sortColors(vector<int>& nums) {
+    int low = 0, mid = 0, high = nums.size()-1;
+    while(mid<=high){
+        if(nums[mid] == 0){
+            swap(nums[low], nums[mid]);
+            low++;
+            mid++;
+        }
+        else if(nums[mid] == 1){
+            mid++;
+        }
+        else{
+            swap(nums[high], nums[mid]);
+            high--;
+        }
+    }
+}
+
+
 int main(){
     vector<int> nums ={2,0,2,1,1,0};
     sortColors(nums);
@@ -55,10 +84,9 @@ int main(){
 
 
 /*
-
 Complexity analysis:
 
-Time complexity: O(N), where N is the number of elements present in the array.
-Space complexity: O(1), we are using just 3 variables, so space is constant. 
+Time complexity: O(N), where N is the number of elements that is present in the array.
+Space complexity: O(1), we use constant space, so the time complexity is constant.
 
 */
