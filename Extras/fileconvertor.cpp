@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "Largest subarray with 0 sum";
+string fname = "1. Two Sum";
 
 int main(){
     string converted_file_name  = "";
