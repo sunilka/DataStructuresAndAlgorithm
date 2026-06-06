@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "169. Majority Element";
+string fname = "53. Maximum Subarray";
 
 int main(){
     string converted_file_name  = "";
