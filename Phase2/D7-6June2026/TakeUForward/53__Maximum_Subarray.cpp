@@ -49,3 +49,12 @@ int main(){
     int ans = maxSubArray(nums);
     cout<<"Printing the max subarray sum here "<<ans<<endl;
 }
+
+/*
+
+Complexity analysis:
+
+Time complexity: O(N), where N is the number of elements present in array.
+Space complexity: O(1), we are just using a variable for store the ps, and hence the space complexity is constant.
+
+*/
