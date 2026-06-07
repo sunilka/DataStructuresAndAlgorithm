@@ -43,7 +43,7 @@ It is not required to do the modifications in-place.
 #include<bits/stdc++.h>
 using namespace std;
 
-vector<int> rearrangeArray(vector<int>& nums) {
+vector<int> rearrangeArray1(vector<int>& nums) {
     vector<int> p, n, ans;
     for(auto ele: nums){
         if(ele > 0) p.push_back(ele);
@@ -56,14 +56,6 @@ vector<int> rearrangeArray(vector<int>& nums) {
     return ans;
 }
 
-int main(){
-    vector<int> nums = {3,1,-2,-5,2,-4};
-    vector<int> ans = rearrangeArray(nums);
-    cout<<"Printing the answer array here "<<endl;
-    for(auto ele: ans) cout<<ele<<" ";
-    cout<<endl;
-}
-
 /*
 
 Complexity analysis:
@@ -72,3 +64,33 @@ Time complexity: O(N) where N is the number of elements present in the array.
 Space complexity: O(N) where N is the number of elements present in the array.
 
 */
+
+
+vector<int> rearrangeArray(vector<int>& nums) {
+    int n = nums.size(), pi = 0, ni = 1;
+    vector<int> ans(n, 0);
+    for(auto ele: nums){
+        if(ele > 0) ans[pi] = ele, pi+=2;
+        else ans[ni] = ele, ni+=2;
+    }
+    return ans;
+}
+
+/*
+
+Complexity analysis:
+
+Time complexity: O(N) where N is the number of elements present in the array.
+Space complexity: O(N) where N is the number of elements present in the array, this is needed for the answer.
+
+*/
+
+
+int main(){
+    vector<int> nums = {3,1,-2,-5,2,-4};
+    vector<int> ans = rearrangeArray(nums);
+    cout<<"Printing the answer array here "<<endl;
+    for(auto ele: ans) cout<<ele<<" ";
+    cout<<endl;
+}
+
