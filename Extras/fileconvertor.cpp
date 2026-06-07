@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "560. Subarray Sum Equals K";
+string fname = "Leaders in an Array";
 
 int main(){
     string converted_file_name  = "";
