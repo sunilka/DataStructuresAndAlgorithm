@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "Kadane's Algorithm : Maximum Subarray Sum in an Array";
+string fname = "121. Best Time to Buy and Sell Stock";
 
 int main(){
     string converted_file_name  = "";
