@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "Leaders in an Array";
+string fname = "31. Next Permutation";
 
 int main(){
     string converted_file_name  = "";
