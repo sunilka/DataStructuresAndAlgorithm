@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "31. Next Permutation";
+string fname = "128. Longest Consecutive Sequence";
 
 int main(){
     string converted_file_name  = "";
