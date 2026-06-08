@@ -54,7 +54,7 @@ void union_of_elements(int i, int j){
     }
 }
 
-int longestConsecutive(vector<int>& nums) {
+int longestConsecutive2(vector<int>& nums) {
     if(!nums.size()) return 0;
 
     int n = nums.size();
@@ -78,12 +78,6 @@ int longestConsecutive(vector<int>& nums) {
     return *max_element(size.begin(), size.end());
 }
 
-int main(){
-    vector<int> nums ={0,3,7,2,5,8,4,6,0,1};
-    int ans = longestConsecutive(nums);
-    cout<<"Printing the longest consecutive element over here "<<ans<<endl;
-}   
-
 /*
 
 Complexity analysis:
@@ -92,3 +86,37 @@ Time complexity: O(N*alpha(N)), where N is the number of elements present in the
 Space complexity: O(N), where N is the number of elements present in the array.
 
 */
+
+int longestConsecutive(vector<int>& nums) {
+    if(nums.empty()) return 0;
+
+    unordered_set<int> us(nums.begin(), nums.end());    
+    int ans = 0;
+
+    for(auto ele: us){
+        if(!us.count(ele-1)){
+            int cn = ele;
+            int cs = 1;
+            while(us.count(cn+1)) cs +=1, cn+=1;
+            ans = max(ans, cs);
+        }
+    }
+    return ans;
+
+}
+
+/*
+
+Complexity analysis:
+
+Time complexity: O(N), where N is the number of elements present in the array.
+Space complexity: O(N), where N is the number of elements present in the array.
+
+*/
+
+int main(){
+    vector<int> nums ={0,3,7,2,5,8,4,6,0,1};
+    int ans = longestConsecutive(nums);
+    cout<<"Printing the longest consecutive element over here "<<ans<<endl;
+}   
+
