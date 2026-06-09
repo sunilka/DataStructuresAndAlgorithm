@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "48. Rotate Image";
+string fname = "54. Spiral Matrix";
 
 int main(){
     string converted_file_name  = "";
