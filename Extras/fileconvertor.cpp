@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "15. 3Sum";
+string fname = "4 Sum";
 
 int main(){
     string converted_file_name  = "";
