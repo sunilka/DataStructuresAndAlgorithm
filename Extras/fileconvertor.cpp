@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "118. Pascal's Triangle";
+string fname = "Majority Element-II";
 
 int main(){
     string converted_file_name  = "";
