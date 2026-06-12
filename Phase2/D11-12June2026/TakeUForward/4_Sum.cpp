@@ -70,3 +70,12 @@ int main(){
         cout<<endl;
     }
 }
+
+/*
+
+Complexity analysis:
+
+Time complexity: O(NlogN + N^3) = O(N^3), where N is the number of elements present in the array.
+Space complexity: O(N), we are using extra space for storing the elements in the unordered map. 
+
+*/
