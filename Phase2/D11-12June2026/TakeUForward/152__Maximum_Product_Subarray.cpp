@@ -31,7 +31,7 @@ The product of any subarray of nums is guaranteed to fit in a 32-bit integer.
 #include<bits/stdc++.h>
 using namespace std;
 
-int maxProduct(vector<int>& nums) {
+int maxProduct1(vector<int>& nums) {
     int n = nums.size();
     int ans = *max_element(nums.begin(), nums.end());
 
@@ -41,6 +41,28 @@ int maxProduct(vector<int>& nums) {
             ta *= nums[j];
             ans = max(ans, ta);
         }
+    }
+    return ans;
+}
+
+/*
+
+Complexity analysis:
+
+Time complexity: O(N^2), where N is the number of elements present in the array.
+Space complexity: O(1), we do not use any extra space, hence the space complexity is constant.
+
+*/
+
+
+int maxProduct(vector<int>& nums) {
+    int n = nums.size(), ans = INT_MIN, pp = 1, sp = 1;
+    for(int i=0; i<n; i++){
+        if(pp == 0) pp = 1;
+        if(sp == 0) sp = 1;
+        pp *= nums[i];
+        sp *= nums[n-i-1];
+        ans = max(ans, max(pp, sp));
     }
     return ans;
 }
@@ -55,7 +77,8 @@ int main(){
 
 Complexity analysis:
 
-Time complexity: O(N^2), where N is the number of elements present in the array.
+Time complexity: O(N), where N is the number of elements in the array.
 Space complexity: O(1), we do not use any extra space, hence the space complexity is constant.
 
 */
+
