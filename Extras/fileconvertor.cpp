@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "Majority Element-II";
+string fname = "15. 3Sum";
 
 int main(){
     string converted_file_name  = "";
