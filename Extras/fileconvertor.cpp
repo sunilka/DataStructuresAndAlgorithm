@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "88. Merge Sorted Array";
+string fname = "Find the repeating and missing numbers";
 
 int main(){
     string converted_file_name  = "";
