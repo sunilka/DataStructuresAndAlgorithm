@@ -80,3 +80,13 @@ int main(){
     int ans = reversePairs(nums);
     cout<<"Printing the answer here "<<ans<<endl;
 }
+
+/*
+
+Complexity analysis:
+
+Time complexity; O(NlogN), where N is the numeber of elements present in the array.
+Space complexity: O(N+N), where N is the number of elements present in the array.
+
+
+*/
