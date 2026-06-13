@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "152. Maximum Product Subarray";
+string fname = "56. Merge Intervals";
 
 int main(){
     string converted_file_name  = "";
