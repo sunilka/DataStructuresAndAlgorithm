@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "56. Merge Intervals";
+string fname = "88. Merge Sorted Array";
 
 int main(){
     string converted_file_name  = "";
