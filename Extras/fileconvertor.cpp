@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "Find the repeating and missing numbers";
+string fname = "493. Reverse Pairs";
 
 int main(){
     string converted_file_name  = "";
