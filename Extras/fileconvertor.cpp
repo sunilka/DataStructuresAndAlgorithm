@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "Search X in sorted array";
+string fname = "Lower Bound";
 
 int main(){
     string converted_file_name  = "";
