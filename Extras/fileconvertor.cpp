@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "Upper Bound";
+string fname = "35. Search Insert Position";
 
 int main(){
     string converted_file_name  = "";
