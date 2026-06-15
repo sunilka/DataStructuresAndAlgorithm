@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "Count the number of subarrays with given xor K";
+string fname = "Search X in sorted array";
 
 int main(){
     string converted_file_name  = "";
