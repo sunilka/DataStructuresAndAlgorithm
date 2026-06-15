@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "493. Reverse Pairs";
+string fname = "Count inversions in an array";
 
 int main(){
     string converted_file_name  = "";
