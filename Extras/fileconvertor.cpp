@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "Floor and Ceil in Sorted Array";
+string fname = "34. Find First and Last Position of Element in Sorted Array";
 
 int main(){
     string converted_file_name  = "";
