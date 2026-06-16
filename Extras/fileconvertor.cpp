@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "Number of occurrence";
+string fname = "162. Find Peak Element";
 
 int main(){
     string converted_file_name  = "";
