@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "Find nth root of m";
+string fname = "875. Koko Eating Bananas";
 
 int main(){
     string converted_file_name  = "";
