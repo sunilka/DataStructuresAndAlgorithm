@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "153. Find Minimum in Rotated Sorted Array";
+string fname = "Find Kth Rotation";
 
 int main(){
     string converted_file_name  = "";
