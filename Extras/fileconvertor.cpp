@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "Finding Sqrt of a number using Binary Search";
+string fname = "Find nth root of m";
 
 int main(){
     string converted_file_name  = "";
