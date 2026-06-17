@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "Find Kth Rotation";
+string fname = "Finding Sqrt of a number using Binary Search";
 
 int main(){
     string converted_file_name  = "";
