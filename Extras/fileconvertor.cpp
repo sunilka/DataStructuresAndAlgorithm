@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "875. Koko Eating Bananas";
+string fname = "1482. Minimum Number of Days to Make m Bouquets";
 
 int main(){
     string converted_file_name  = "";
