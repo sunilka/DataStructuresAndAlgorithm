@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "1482. Minimum Number of Days to Make m Bouquets";
+string fname = "1283. Find the Smallest Divisor Given a Threshold";
 
 int main(){
     string converted_file_name  = "";
