@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "The Painter's Partition Problem-II";
+string fname = "Minimize Max Distance to Gas Station";
 
 int main(){
     string converted_file_name  = "";
