@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "Allocate Minimum Pages";
+string fname = "410. Split Array Largest Sum";
 
 int main(){
     string converted_file_name  = "";
