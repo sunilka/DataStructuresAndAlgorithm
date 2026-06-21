@@ -61,3 +61,12 @@ int main(){
     double ans = findMedianSortedArrays(nums1, nums2);
     cout<<"Printing the answer here "<<double(ans)<<endl;
 }
+
+/*
+
+Complexity analysis:
+
+Time complexity: O(log(min(n1, n2))), where n1 represents the size of the first array and n2 represents the size of second array.
+Space complexity: O(1), we are not using any extra space, hence the space complexity is constant.s
+
+*/
