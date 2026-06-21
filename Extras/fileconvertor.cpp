@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "410. Split Array Largest Sum";
+string fname = "The Painter's Partition Problem-II";
 
 int main(){
     string converted_file_name  = "";
