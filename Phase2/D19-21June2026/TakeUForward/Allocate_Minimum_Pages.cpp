@@ -114,7 +114,7 @@ int findPages(vector<int>& arr, int k){
 
     int low = *max_element(arr.begin(), arr.end()), high = accumulate(arr.begin(), arr.end(), 0);
     while(low <= high){
-        int mid = low + (high - low)/2;
+        int mid = low + (high - low)/2; // this is the number of pages we are going to assign to each student
         int rs = 0, ns = 1;
         for(int i=0; i<n; i++){
             if(rs+arr[i] <= mid) rs+=arr[i];
@@ -138,3 +138,14 @@ int main(){
     int ans = findPages(arr, k);
     cout<<"Printing the answer here "<<ans<<endl;
 }
+
+/*
+
+Complexity analysis:
+
+Time Complexity: O(N * log(Sum - Max)) 
+    - The while loop runs log(Sum - Max) times because the search space is cut in half each iteration.
+    - Inside the loop, we iterate through the array of size N exactly once.
+Space complexity: O(1), we are not using any extra space, hence the space complexity is constant.
+
+*/
