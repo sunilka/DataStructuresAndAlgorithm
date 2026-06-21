@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "Aggressxive Cows";
+string fname = "Allocate Minimum Pages";
 
 int main(){
     string converted_file_name  = "";
