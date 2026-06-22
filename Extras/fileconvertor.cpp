@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "1901. Find a Peak Element II";
+string fname = "Median of Row Wise Sorted Matrix";
 
 int main(){
     string converted_file_name  = "";
