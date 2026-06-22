@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "Search in a 2D matrix";
+string fname = "240. Search a 2D Matrix II";
 
 int main(){
     string converted_file_name  = "";
