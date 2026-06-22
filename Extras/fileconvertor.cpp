@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "4. Median of Two Sorted Arrays";
+string fname = "K-th Element of two sorted arrays";
 
 int main(){
     string converted_file_name  = "";
