@@ -44,6 +44,35 @@ void bfs(vector<vector<int>>& connections, vector<bool>& visited, int sn, vector
     }
 }
 
+/*
+
+Complexity analysis for BFS:
+
+Time complexity: O(V+E), where V is the number of nodes and E is the number of edges.
+Space complexity: O(V+E), where V is the number of nodes and E is the number of edges.
+
+*/
+
+
+void dfs(vector<vector<int>>& connections, vector<bool>& visited, int sn, vector<int>& tans){
+    visited[sn] = true;
+    tans.push_back(sn);
+    vector<int> &connected_nodes = connections[sn];
+    for(int i=0; i<connected_nodes.size(); i++){
+        int connected_node = connected_nodes[i];
+        if(visited[connected_node]==false) dfs(connections, visited, connected_node, tans);
+    }
+}
+
+/*
+
+Complexity analysis for BFS:
+
+Time complexity: O(V+E), where V is the number of nodes and E is the number of edges.
+Space complexity: O(V+E), where V is the number of nodes and E is the number of edges.
+
+*/
+
 
 vector<vector<int>> getComponents(int V, vector<vector<int>>& edges) {
     vector<vector<int>> connections(V);
@@ -60,7 +89,7 @@ vector<vector<int>> getComponents(int V, vector<vector<int>>& edges) {
     for(int i=0; i<V; i++){
         if(visited[i] == false){
             vector<int> tans;
-            bfs(connections, visited, i, tans);
+            dfs(connections, visited, i, tans);
             ans.push_back(tans);
         }
     }
@@ -79,11 +108,3 @@ int main(){
     }
 }
 
-/*
-
-Complexity analysis:
-
-Time complexity: O(V+E), where V is the number of nodes and E is the number of edges.
-Space complexity: O(V+E), where V is the number of nodes and E is the number of edges.
-
-*/
