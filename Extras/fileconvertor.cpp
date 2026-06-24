@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "Connected Components in an Undirected Graph";
+string fname = "547. Number of Provinces";
 
 int main(){
     string converted_file_name  = "";
