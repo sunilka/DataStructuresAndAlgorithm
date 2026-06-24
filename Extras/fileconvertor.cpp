@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "Graph Representation in C++";
+string fname = "Connected Components in an Undirected Graph";
 
 int main(){
     string converted_file_name  = "";
