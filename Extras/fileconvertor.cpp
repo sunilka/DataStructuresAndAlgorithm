@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "Median of Row Wise Sorted Matrix";
+string fname = "963. Minimum Area Rectangle II";
 
 int main(){
     string converted_file_name  = "";
