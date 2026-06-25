@@ -88,7 +88,7 @@ int main(){
 
 Complexity analysis:
 
-Time complexity: O( (m+n)^2 log(m*n)), where m is the row size and the n is the col size of the matrix.
+Time complexity: O( (m*n)^2 log(m*n)), where m is the row size and the n is the col size of the matrix.
 Space complexity: O(m*n)
 
 */
