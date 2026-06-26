@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "127. Word Ladder";
+string fname = "200. Number of Islands";
 
 int main(){
     string converted_file_name  = "";
