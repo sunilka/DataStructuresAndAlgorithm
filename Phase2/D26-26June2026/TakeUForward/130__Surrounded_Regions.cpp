@@ -102,7 +102,7 @@ int main(){
 
 Complexity analysis:
 
-Time complexity: O(2(m+n) + (m*n)) = O(m*n), where m is the number of rows and n is the number of cols in the given board.
-Space complexity: O(2(m+n) + (m*n)), where m is the number of rows and n is the number of cols in the given board.
+Time complexity: O(2(m+n) + (m*n) + (m*n)) = O(m*n), where m is the number of rows and n is the number of cols in the given board.
+Space complexity: O(m*n), where m is the number of rows and n is the number of cols in the given board.
 
 */
