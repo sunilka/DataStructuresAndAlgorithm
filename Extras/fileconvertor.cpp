@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "189. Rotate Array";
+string fname = "Longest subarray with given sum K(positives)";
 
 int main(){
     string converted_file_name  = "";
