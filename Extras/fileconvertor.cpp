@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "18. 4Sum";
+string fname = "Count the number of subarrays with given xor K";
 
 int main(){
     string converted_file_name  = "";
