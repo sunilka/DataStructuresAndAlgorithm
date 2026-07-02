@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "Count the number of subarrays with given xor K";
+string fname = "Count Inversions";
 
 int main(){
     string converted_file_name  = "";
