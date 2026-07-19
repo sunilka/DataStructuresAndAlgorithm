@@ -48,7 +48,7 @@ bool dfs(int numCourses, int node, vector<vector<int>>& adjList, vector<bool>& v
     return false;
 }
 
-bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
+bool canFinish2(int numCourses, vector<vector<int>>& prerequisites) {
     vector<vector<int>> adjList(numCourses);
     vector<bool> visited(numCourses, false);
     vector<bool> pathVisited(numCourses, false);
@@ -99,8 +99,7 @@ bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
         }
     }
 
-    if(ans.size() == numCourses){
-        return true;
+    if(ans.size() == numCourses) return true;
         
     return false;
 }
