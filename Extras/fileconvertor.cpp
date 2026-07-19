@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "Topological Sort Algorithm 2";
+string fname = "207. Course Schedule";
 
 int main(){
     string converted_file_name  = "";
