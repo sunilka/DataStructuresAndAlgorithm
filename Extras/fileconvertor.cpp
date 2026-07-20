@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "Dijkstra Algorithm using priority queue";
+string fname = "1091. Shortest Path in Binary Matrix";
 
 int main(){
     string converted_file_name  = "";

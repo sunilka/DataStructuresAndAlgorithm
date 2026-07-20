@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    string input = "[[1,2,3],[0,2],[0,1,3],[0,2]]";
+    string input = "[[0,0,0],[1,1,0],[1,1,0]]";
     string output = "";
     for(auto c: input){
         if(c == '[') output+='{';
