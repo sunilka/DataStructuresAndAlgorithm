@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "802. Find Eventual Safe States";
+string fname = "Alien Dictionary";
 
 int main(){
     string converted_file_name  = "";
