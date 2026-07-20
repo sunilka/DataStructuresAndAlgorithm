@@ -34,7 +34,55 @@ class Solution {
         }
         s.push(node);
     }
+
     vector<int> shortestPath(int V, int E, vector<vector<int>>& edges) {
+        vector<int> indegree(V, 0);
+        vector<vector<pair<int, int>>> adjList(V);
+
+        for(int i=0; i<edges.size(); i++){
+            int u = edges[i][0], v = edges[i][1], d = edges[i][2];
+            adjList[u].push_back({v, d});
+            indegree[v]+=1;
+        }
+
+        queue<int> q;
+        vector<int> ans;
+
+        for(int i=0; i<V; i++){
+            if(indegree[i] == 0) q.push(i);
+        }
+
+        vector<int> dist(V, INT_MAX);
+        dist[0] = 0;
+        while(!q.empty()){
+            int node = q.front();
+            ans.push_back(node);
+            q.pop();
+
+            for(int i=0; i<adjList[node].size(); i++){
+                int connected_node = adjList[node][i].first;
+                int wt = adjList[node][i].second;
+                if(dist[node] != INT_MAX && dist[connected_node] > dist[node] + wt) dist[connected_node] = dist[node] + wt;
+                indegree[connected_node]-=1;
+                if(indegree[connected_node] == 0) {
+                    q.push(connected_node);
+                }
+            }
+        }
+
+        for(int i=0; i<V; i++){
+            if(dist[i] == INT_MAX) dist[i] = -1;
+        }
+        return dist;
+    }
+
+
+/*
+Time complexity: O(V+E), where V is the number of vertices present in the graph and E is the number of edges present in the graph.
+Space complexity: O(V+E), where V is the number of vertices present in the graph and E is the number of edges present in the graph.
+*/
+
+    vector<int> shortestPath2(int V, int E, vector<vector<int>>& edges) {
         vector<bool> visited(V, false);
         vector<vector<pair<int, int>>> adjList(V);
         for(int i=0; i<edges.size(); i++){
