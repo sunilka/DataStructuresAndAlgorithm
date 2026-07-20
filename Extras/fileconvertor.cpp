@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "Dijkstra’s Algorithm - Using Set";
+string fname = "Dijkstra Algorithm using priority queue";
 
 int main(){
     string converted_file_name  = "";
