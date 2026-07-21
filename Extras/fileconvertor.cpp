@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "1091. Shortest Path in Binary Matrix";
+string fname = "1631. Path With Minimum Effort";
 
 int main(){
     string converted_file_name  = "";
