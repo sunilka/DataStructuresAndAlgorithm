@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "743. Network Delay Time";
+string fname = "1976. Number of Ways to Arrive at Destination";
 
 int main(){
     string converted_file_name  = "";
