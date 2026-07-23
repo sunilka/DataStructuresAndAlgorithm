@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "1976. Number of Ways to Arrive at Destination";
+string fname = "Minimum Multiplications to reach End";
 
 int main(){
     string converted_file_name  = "";
