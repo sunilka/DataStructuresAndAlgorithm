@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "Minimum Multiplications to reach End";
+string fname = "Number of Connected Components";
 
 int main(){
     string converted_file_name  = "";
