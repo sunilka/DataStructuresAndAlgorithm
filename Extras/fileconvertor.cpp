@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "947. Most Stones Removed with Same Row or Column";
+string fname = "827. Making A Large Island";
 
 int main(){
     string converted_file_name  = "";
