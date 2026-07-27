@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "Number of Connected Components";
+string fname = "Minimum Spanning Tree - Prims algorithm";
 
 int main(){
     string converted_file_name  = "";
