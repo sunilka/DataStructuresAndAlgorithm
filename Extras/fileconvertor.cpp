@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "1319. Number of Operations to Make Network Connected";
+string fname = "947. Most Stones Removed with Same Row or Column";
 
 int main(){
     string converted_file_name  = "";
