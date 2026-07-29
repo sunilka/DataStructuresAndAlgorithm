@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "63. Unique Paths II";
+string fname = "120. Triangle";
 
 int main(){
     string converted_file_name  = "";
