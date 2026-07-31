@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "416. Partition Equal Subset Sum";
+string fname = "Partition Into 2 Subsets with Min Sum Diff";
 
 int main(){
     string converted_file_name  = "";
