@@ -109,3 +109,30 @@ Total Time Complexity: O(G log G + S log S)
 
 Space complexity: O(S + G)
 */
+
+/*
+Using sorting and 2 pointers
+*/
+
+class Solution {
+public:
+    int findContentChildren(vector<int>& g, vector<int>& s) {
+        sort(g.begin(), g.end());
+        sort(s.begin(), s.end());
+        int child_ptr = 0; 
+        int cookie_ptr = 0; 
+        while (child_ptr < g.size() && cookie_ptr < s.size()) {
+            if (s[cookie_ptr] >= g[child_ptr]) {
+                child_ptr++; 
+            }
+            cookie_ptr++;
+        }
+        return child_ptr;
+    }
+};
+
+/*
+
+Time complexity: O(GlogG+SlogS+O(G+S))
+Space complexity: O(1)
+*/
