@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "518. Coin Change II";
+string fname = "Knapsack with Duplicate Items";
 
 int main(){
     string converted_file_name  = "";
