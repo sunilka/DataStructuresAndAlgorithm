@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "455. Assign Cookies";
+string fname = "494. Target Sum";
 
 int main(){
     string converted_file_name  = "";
