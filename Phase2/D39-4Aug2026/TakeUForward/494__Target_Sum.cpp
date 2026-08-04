@@ -154,5 +154,8 @@ public:
 };
 
 /*
-
+Time complexity: O(N*(2*sum)), where N is the number of elements present in the array and sum is the sum of the elements
+present in the array.
+Space complexity: O((2*sum)),  where N is the number of elements present in the array and sum is the sum of the elements
+present in the array.
 */
