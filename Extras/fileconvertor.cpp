@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "Knapsack with Duplicate Items";
+string fname = "1143. Longest Common Subsequence";
 
 int main(){
     string converted_file_name  = "";
