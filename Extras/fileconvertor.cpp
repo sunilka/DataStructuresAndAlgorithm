@@ -3,7 +3,7 @@
 using namespace std;
 
 // Paste the file name here 
-string fname = "1143. Longest Common Subsequence";
+string fname = "Longest Common Substring";
 
 int main(){
     string converted_file_name  = "";
