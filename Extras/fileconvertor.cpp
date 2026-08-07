@@ -1,9 +1,9 @@
 #include<bits/stdc++.h>
 #include <iostream>
-using namespace std;
+using namespace std;    
 
 // Paste the file name here 
-string fname = "Longest Common Substring";
+string fname = "516. Longest Palindromic Subsequence";
 
 int main(){
     string converted_file_name  = "";
