@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "1312. Minimum Insertion Steps to Make a String Palindrome";
+string fname = "583. Delete Operation for Two Strings";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
