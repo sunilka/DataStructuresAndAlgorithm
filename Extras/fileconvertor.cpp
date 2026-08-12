@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "Longest Increasing Subsequence | Binary Search ";
+string fname = "368. Largest Divisible Subset";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
