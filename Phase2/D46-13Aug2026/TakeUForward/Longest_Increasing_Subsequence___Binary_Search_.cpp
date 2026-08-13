@@ -41,3 +41,24 @@ class Solution {
 Time complexity: O(NlogN), where N is the number of elements present in the array.
 Space complexity: O(N), where N is the number of elements present in the array.
 */
+
+class Solution {
+  public:
+    int lis(vector<int>& arr) {
+        int n = arr.size();
+        vector<int> dp(n, 1);
+        for(int i=1; i<n; i++){
+            for(int j=0; j<i; j++){
+                if(arr[j] < arr[i]  && dp[j] + 1 > dp[i]){
+                    dp[i] = dp[j] + 1;
+                }
+            }
+        }
+        return *max_element(dp.begin(), dp.end());
+    }
+};
+
+/*
+Time complexity: O(N^2), where N is the number of elements present in the array.
+Space complexity: O(N), where N is the number of elements present in the array.
+*/
