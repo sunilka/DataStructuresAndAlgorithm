@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "Printing Longest Increasing Subsequence";
+string fname = "1048. Longest String Chain";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
