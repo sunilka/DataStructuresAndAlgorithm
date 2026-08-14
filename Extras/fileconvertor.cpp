@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "673. Number of Longest Increasing Subsequence";
+string fname = "Matrix Chain Multiplication";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
