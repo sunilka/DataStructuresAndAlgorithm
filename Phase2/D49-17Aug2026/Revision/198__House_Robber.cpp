@@ -86,3 +86,8 @@ public:
         return next1;
     }
 };
+
+/*
+Time complexity: O(N), where N is the number of elements present in the arrya, basically the number of houses present.
+Space complexity: O(1) we are using varibales and hence the space is constant.
+*/
