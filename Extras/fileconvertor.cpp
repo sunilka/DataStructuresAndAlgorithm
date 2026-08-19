@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "63. Unique Paths II";
+string fname = "64. Minimum Path Sum";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
