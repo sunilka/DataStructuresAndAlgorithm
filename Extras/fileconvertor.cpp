@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "64. Minimum Path Sum";
+string fname = "120. Triangle";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
