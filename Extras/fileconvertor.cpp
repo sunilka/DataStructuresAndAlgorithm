@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "1463. Cherry Pickup II";
+string fname = "Subset Sum Problem";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
