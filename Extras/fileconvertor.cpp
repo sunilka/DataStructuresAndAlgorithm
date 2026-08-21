@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "416. Partition Equal Subset Sum";
+string fname = "Count Subsets with Sum";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
