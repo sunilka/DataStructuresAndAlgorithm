@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "Count Subsets with Sum";
+string fname = "Partitions with Given Difference";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
