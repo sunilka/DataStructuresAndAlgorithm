@@ -19,10 +19,7 @@ string lcs(string &s1, string &s2) {
     int i=0, j=0;
     string ans = "";
     while(i<n1 && j<n2){
-        if(s1[i] == s2[j]){
-            ans += s1[i];
-            i++, j++;
-        }
+        if(s1[i] == s2[j]) ans += s1[i], i++, j++;
         else{
             if(dp[i+1][j] >= dp[i][j+1]) i = i+1;
             else j = j+1;
