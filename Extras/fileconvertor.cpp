@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "516. Longest Palindromic Subsequence";
+string fname = "Longest Common Substring";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
