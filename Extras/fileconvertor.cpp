@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "1092. Shortest Common Supersequence ";
+string fname = "115. Distinct Subsequences";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
