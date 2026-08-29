@@ -104,3 +104,59 @@ public:
 Time complexity:  O(N * 2 * 2) = O(4N)-> N indices * 2 transaction states (0,1) * 2 buy states (0,1)
 Space complexity: O((N + 1) * 3 * 3) = O(9N + 9) for the allocated DP array O(N + 1) for the auxiliary stack space
 */
+
+/*
+Bottom up tabulation method.
+*/
+
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+        int n = prices.size(), k=2;
+        vector<vector<vector<int>>> dp(n+1, vector<vector<int>>(k+1, vector<int>(3, 0)));
+        for(int idx=n-1; idx>=0; idx--){
+            for(int nt=k-1; nt>=0; nt--){
+                for(int buy_stock=0; buy_stock<=1; buy_stock++){
+                    if(buy_stock) dp[idx][nt][buy_stock] = max(dp[idx+1][nt][!buy_stock]-prices[idx], dp[idx+1][nt][buy_stock]);
+                    else dp[idx][nt][buy_stock] = max(dp[idx+1][nt+1][!buy_stock]+prices[idx], dp[idx+1][nt][buy_stock]);
+                }
+            }
+        }
+        return dp[0][0][1];
+    }
+};
+
+/*
+Time complexity:  O(N * 2 * 2) = O(4N)-> N indices * 2 transaction states (0,1) * 2 buy states (0,1)
+Space complexity: O((N + 1) * 3 * 3) = O(9N + 9) for the allocated DP array and we are not using any extra auxiliary 
+stack space here. 
+*/
+
+/*
+Space optimization
+*/
+
+class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
+        int n = prices.size(), k=2;
+        vector<vector<int>> cur(k+1, vector<int>(3, 0)), next(k+1, vector<int>(3, 0));
+        for(int idx=n-1; idx>=0; idx--){
+            for(int nt=k-1; nt>=0; nt--){
+                for(int buy_stock=0; buy_stock<=1; buy_stock++){
+                    if(buy_stock) cur[nt][buy_stock] = max(next[nt][!buy_stock]-prices[idx], next[nt][buy_stock]);
+                    else cur[nt][buy_stock] = max(next[nt+1][!buy_stock]+prices[idx], next[nt][buy_stock]);
+                }
+                next = cur;
+            }
+        }
+        return next[0][1];
+    }
+};
+
+
+/*
+Time complexity:  O(N * 2 * 2) = O(4N)-> N indices * 2 transaction states (0,1) * 2 buy states (0,1)
+Space complexity: O((3 * 3) = O(9) = O(1) for the allocated DP array and we are not using any extra auxiliary 
+stack space here. 
+*/
