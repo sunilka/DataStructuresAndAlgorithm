@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "Matrix Chain Multiplication";
+string fname = "Rod Cutting";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
