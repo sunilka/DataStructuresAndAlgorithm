@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "132. Palindrome Partitioning II";
+string fname = "1043. Partition Array for Maximum Sum";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
