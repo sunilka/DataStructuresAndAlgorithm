@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "1043. Partition Array for Maximum Sum";
+string fname = "1277. Count Square Submatrices with All Ones";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
