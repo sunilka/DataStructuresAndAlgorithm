@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "Insertion in a Doubly Linked List";
+string fname = "Delete Head of Doubly Linked List";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
