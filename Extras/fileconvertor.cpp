@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "1277. Count Square Submatrices with All Ones";
+string fname = "Insertion in a Doubly Linked List";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
