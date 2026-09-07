@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "Reverse a Doubly Linked List";
+string fname = "876. Middle of the Linked List";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
