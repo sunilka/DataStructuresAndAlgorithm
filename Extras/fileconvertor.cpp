@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "19. Remove Nth Node From End of List";
+string fname = "2095. Delete the Middle Node of a Linked List";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
