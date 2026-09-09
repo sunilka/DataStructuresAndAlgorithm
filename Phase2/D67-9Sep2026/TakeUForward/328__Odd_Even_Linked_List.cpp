@@ -71,3 +71,8 @@ public:
         return oh;
     }
 };
+
+/*
+Time complexity: O(N), where N is the number of nodes present in the linked list. 
+Space complexity: O(1), we are not using an extra space, hence the space complexity is constant.
+*/
