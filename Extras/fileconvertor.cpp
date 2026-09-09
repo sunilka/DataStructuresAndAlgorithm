@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "148. Sort List";
+string fname = "Sort a linked list of 0s, 1s and 2s";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
