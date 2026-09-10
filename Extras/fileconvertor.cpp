@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "Delete All Occurrences in DLL";
+string fname = "Pair Sum in Sorted Doubly Linked List";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
