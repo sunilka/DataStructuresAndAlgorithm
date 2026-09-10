@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "Add 1 to a Linked List Number";
+string fname = "Delete All Occurrences in DLL";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
