@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "Sort a linked list of 0s, 1s and 2s";
+string fname = "160. Intersection of Two Linked Lists";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
