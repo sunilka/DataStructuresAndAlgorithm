@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "Pair Sum in Sorted Doubly Linked List";
+string fname = "25. Reverse Nodes in k-Group";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
