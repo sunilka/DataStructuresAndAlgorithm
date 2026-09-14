@@ -79,3 +79,9 @@ class Solution {
         return merge(head, right);
     }
 };
+
+/*
+Time complexity: O(N*M), where N is the number of nodes present in the hortizontal direction of the linked list and M is the 
+number max number of nodes present in the vertical direction of the linked list.
+Space complexity: O(N) auxiliary stack space is used.
+*/
