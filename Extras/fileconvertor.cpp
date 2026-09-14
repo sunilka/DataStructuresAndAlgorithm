@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "25. Reverse Nodes in k-Group";
+string fname = "Flattening a Linked List";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
