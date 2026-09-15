@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "Consecutive 1's not allowed";
+string fname = "22. Generate Parentheses";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
