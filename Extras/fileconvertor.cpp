@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "1922. Count Good Numbers";
+string fname = "Sort a stack";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
