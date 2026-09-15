@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "All Subsequences of String";
+string fname = "Subsequence with Sum K";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
