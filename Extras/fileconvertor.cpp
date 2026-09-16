@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "216. Combination Sum III";
+string fname = "17. Letter Combinations of a Phone Number";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
