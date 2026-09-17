@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "51. N-Queens";
+string fname = "Rat in a Maze";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
