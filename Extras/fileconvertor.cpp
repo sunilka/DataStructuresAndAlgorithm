@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "17. Letter Combinations of a Phone Number";
+string fname = "131. Palindrome Partitioning";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
