@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "Root to Leaf Paths";
+string fname = "236. Lowest Common Ancestor of a Binary Tree";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
