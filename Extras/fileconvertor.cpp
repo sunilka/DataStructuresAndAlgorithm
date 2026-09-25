@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "Left View of Binary Tree";
+string fname = "Root to Leaf Paths";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
