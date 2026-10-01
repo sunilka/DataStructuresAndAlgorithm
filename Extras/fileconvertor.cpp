@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "863. All Nodes Distance K in Binary Tree";
+string fname = "Burning Tree";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
