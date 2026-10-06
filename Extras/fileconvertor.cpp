@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "297. Serialize and Deserialize Binary Tree";
+string fname = "Minimum in BST";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
