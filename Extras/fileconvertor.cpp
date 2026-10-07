@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "235. Lowest Common Ancestor of a Binary Search Tree";
+string fname = "1008. Construct Binary Search Tree from Preorder Traversal";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
