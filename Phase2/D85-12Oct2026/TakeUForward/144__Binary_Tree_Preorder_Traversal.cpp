@@ -57,6 +57,15 @@ using namespace std;
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+
+struct TreeNode {
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode() : val(0), left(nullptr), right(nullptr) {}
+    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+}; 
 class Solution {
 public:
     vector<int> preorderTraversal(TreeNode* root) {
@@ -84,3 +93,8 @@ public:
         return ans;
     }
 };
+
+/*
+Time complexity: Amortized O(N) + O(N) where N is the number of nodes present in the given binary tree.
+Space complexity: O(1), we are not using any extra space here, hence the space complexity is constant.
+*/
