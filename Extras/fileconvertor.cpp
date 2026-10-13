@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "Largest BST Subtree";
+string fname = "Inorder traversal";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
