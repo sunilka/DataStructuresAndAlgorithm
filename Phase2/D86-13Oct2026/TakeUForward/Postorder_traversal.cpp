@@ -49,5 +49,6 @@ void postorder(TreeNode* root, vector<int>& ans){
 }
 
 /*
-
+Time complexity: O(N), where N is the number of nodes present in the binary tree.
+Space complexity: O(H) stack space, where H is the height of the tree.
 */
