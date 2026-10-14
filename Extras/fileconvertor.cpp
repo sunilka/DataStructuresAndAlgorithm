@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "110. Balanced Binary Tree";
+string fname = "543. Diameter of Binary Tree";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
