@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "104. Maximum Depth of Binary Tree";
+string fname = "100. Same Tree";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
