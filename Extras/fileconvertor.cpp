@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "Tree Boundary Traversal";
+string fname = "987. Vertical Order Traversal of a Binary Tree";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
