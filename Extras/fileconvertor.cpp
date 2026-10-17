@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "701. Insert into a Binary Search Tree";
+string fname = "230. Kth Smallest Element in a BST";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
