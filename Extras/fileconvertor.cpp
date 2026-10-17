@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "106. Construct Binary Tree from Inorder and Postorder Traversal";
+string fname = "Floor in BST";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
