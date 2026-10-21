@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "653. Two Sum IV - Input is a BST";
+string fname = "99. Recover Binary Search Tree";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
