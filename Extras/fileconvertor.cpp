@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "235. Lowest Common Ancestor of a Binary Search Tree";
+string fname = "653. Two Sum IV - Input is a BST";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
