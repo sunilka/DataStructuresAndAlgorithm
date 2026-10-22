@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "Longest Valid Word with All Prefixes";
+string fname = "Count Distinct Substrings";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
