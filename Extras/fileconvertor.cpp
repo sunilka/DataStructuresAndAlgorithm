@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "57. Insert Interval";
+string fname = "56. Merge Intervals";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
