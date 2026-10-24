@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "56. Merge Intervals";
+string fname = "2406. Divide Intervals Into Minimum Number of Groups";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
