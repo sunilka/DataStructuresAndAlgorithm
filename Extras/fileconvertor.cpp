@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "Fractional Knapsack";
+string fname = "55. Jump Game";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
