@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "Count Distinct Substrings";
+string fname = "Fractional Knapsack";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
