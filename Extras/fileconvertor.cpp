@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "45. Jump Game II";
+string fname = "225. Implement Stack using Queues";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
