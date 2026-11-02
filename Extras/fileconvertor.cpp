@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "503. Next Greater Element II";
+string fname = "735. Asteroid Collision";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
