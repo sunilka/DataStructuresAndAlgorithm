@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "735. Asteroid Collision";
+string fname = "907. Sum of Subarray Minimums";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
