@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "907. Sum of Subarray Minimums";
+string fname = "2104. Sum of Subarray Ranges";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
