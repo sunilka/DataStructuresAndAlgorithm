@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "2104. Sum of Subarray Ranges";
+string fname = "402. Remove K Digits";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
