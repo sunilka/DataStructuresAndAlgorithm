@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "402. Remove K Digits";
+string fname = "42. Trapping Rain Water";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
