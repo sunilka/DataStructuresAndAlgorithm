@@ -50,3 +50,62 @@ public:
 Time complexity: O(N), where N is the number of elements present in the given array.
 Space complexity: O(N), where N is the number of elements present in the given array.
 */
+
+/*
+Using monotonic stack.
+*/
+
+class Solution {
+public:
+    int trap(vector<int>& height) {
+        stack<int> s;
+        int n = height.size(), ans = 0;
+        for(int i=0; i<n; i++){
+            while(!s.empty() && height[i] > height[s.top()]){
+                int bottom = s.top();
+                s.pop();
+                if(s.empty()) break;
+                int distance = i - s.top() - 1;
+                int bounded_height = min(height[i], height[s.top()]) - height[bottom];
+                ans += distance * bounded_height;
+            }
+            s.push(i);
+        }
+        return ans;
+    }
+};
+
+/*
+Time complexity: O(N), where N is the number of elements present in the given array.
+Space complexity: O(N), where N is the number of elements present in the given array.
+*/
+
+/*
+Not using any extra space. Using 2 pointer approach
+*/
+
+class Solution {
+public:
+    int trap(vector<int>& height) {
+        int n = height.size();
+        if (n <= 2) return 0;
+        int left = 0, right = n - 1, left_max = 0, right_max = 0, ans = 0;
+        while (left < right) {
+            if (height[left] < height[right]) {
+                if (height[left] >= left_max) left_max = height[left];
+                else ans += left_max - height[left];
+                left++;
+            } else {
+                if (height[right] >= right_max) right_max = height[right];
+                else ans += right_max - height[right];
+                right--;
+            }
+        }
+        return ans;
+    }
+};
+
+/*
+Time complexity: O(N), where N is the number of elements present in the given array.
+Space complexity: O(1), we are not using any extra space here. Hence, the space complexity is constant. 
+*/
