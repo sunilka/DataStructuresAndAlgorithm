@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "84. Largest Rectangle in Histogram";
+string fname = "85. Maximal Rectangle";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
