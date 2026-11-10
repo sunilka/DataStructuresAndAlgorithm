@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "901. Online Stock Span";
+string fname = "146. LRU Cache";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
