@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "146. LRU Cache";
+string fname = "1423. Maximum Points You Can Obtain from Cards";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
