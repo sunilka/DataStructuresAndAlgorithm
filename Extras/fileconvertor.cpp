@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "1423. Maximum Points You Can Obtain from Cards";
+string fname = "3. Longest Substring Without Repeating Characters";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
