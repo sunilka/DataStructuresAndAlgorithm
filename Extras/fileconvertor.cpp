@@ -3,7 +3,7 @@
 using namespace std;    
 
 // Paste the file name here 
-string fname = "3. Longest Substring Without Repeating Characters";
+string fname = "1004. Max Consecutive Ones III";
 int main(){
     string converted_file_name  = "";
     for(auto ele: fname){
